@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T09:32:49 IST" name="Default suite" finished-at="2024-09-18T09:32:57 IST" duration-ms="7720">
+    <groups>
+    </groups>
+    <test started-at="2024-09-18T09:32:49 IST" name="Default test" finished-at="2024-09-18T09:32:57 IST" duration-ms="7720">
+      <class name="TestingApis.RestAssuredApi">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:49 IST" name="setup" finished-at="2024-09-18T09:32:50 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetOtp()[pri:1, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:50 IST" name="testGetOtp" finished-at="2024-09-18T09:32:52 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOtp -->
+        <test-method signature="testLogin()[pri:2, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:52 IST" name="testLogin" finished-at="2024-09-18T09:32:53 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="loyalitylist()[pri:0, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:53 IST" name="loyalitylist" finished-at="2024-09-18T09:32:53 IST" depends-on-methods="TestingApis.RestAssuredApi.testLogin" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loyalitylist -->
+        <test-method signature="testAuthenticity()[pri:0, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:54 IST" name="testAuthenticity" finished-at="2024-09-18T09:32:56 IST" depends-on-methods="TestingApis.RestAssuredApi.testLogin" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticity -->
+        <test-method signature="testGetAllRedemptions()[pri:0, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:56 IST" name="testGetAllRedemptions" finished-at="2024-09-18T09:32:57 IST" depends-on-methods="TestingApis.RestAssuredApi.testLogin" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllRedemptions -->
+        <test-method signature="testRedemptionshistory()[pri:0, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:57 IST" name="testRedemptionshistory" finished-at="2024-09-18T09:32:57 IST" depends-on-methods="TestingApis.RestAssuredApi.testLogin" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedemptionshistory -->
+        <test-method signature="testearnedpoint()[pri:0, instance:TestingApis.RestAssuredApi@dd8ba08]" started-at="2024-09-18T09:32:57 IST" name="testearnedpoint" finished-at="2024-09-18T09:32:57 IST" depends-on-methods="TestingApis.RestAssuredApi.testLogin" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testearnedpoint -->
+      </class> <!-- TestingApis.RestAssuredApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
